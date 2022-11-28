@@ -45,6 +45,15 @@
     <!-- hero section finish -->
   </main>
   
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+    </div>
+  </div>
+  
   <!-- template -->
   <template class="countries-temp">
     <li class="hero-section-item col-xl-3 col-md-6 col-sm-12 d-flex justify-content-center mb-5 ">
@@ -64,10 +73,46 @@
             <strong class="hero-section-item-title">Capital:</strong>
             <p class="capital-desc hero-section-item-discrip">Berlin</p>
           </span>
-          <button class="more-info-btn">More Info</button>
+          <button class="more-info-btn" id="myBtn">More Info</button>
         </div> 
       </div>
     </li>
+  </template>
+  <template class="modal-temp">
+    <div class="pt-3 d-flex">
+      <img src="./images/Afghanistan.jpg" width="450" height="300" alt="">
+      <div class="modal-inner w-100">
+        <h2 class="fw-bold mb-4 fs-1">America</h2>
+        <div class="d-flex ps-5">
+          <ul class="list-unstyled modal-list">
+            <li class="mb-2">
+              <p class="mb-0 fs-5 fw-bolder">Region:</p>
+              <span>America</span>
+            </li>
+            <li class="mb-2">
+              <p class="mb-0 fs-5 fw-bolder">Currencies:</p>
+              <span>uzbnema</span>
+            </li>
+            <li class="mb-2">
+              <p class="mb-0 fs-5 fw-bolder">Border:</p>
+            </li>
+          </ul>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <p class="mb-0 fs-5 fw-bolder">Languages:</p>
+              <span>English</span>
+            </li>
+            <li class="mb-2">
+              <p class="mb-0 fs-5 fw-bolder">Subregion:</p>
+              <span>dddasdasd</span>
+            </li>
+            <li class="mb-2">
+              <a class="mb-0 fs-5 fw-bolder" href="" target="blank">Google maps:</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </template>
   
   <script src="js/main.js"></script>
