@@ -111,7 +111,7 @@ elList.addEventListener("click", evt =>{
     if (evt.target.matches("#myBtn")) {
         document.body.style.overflow = "hidden"
         modal.style.display = "block";  
-        modal.style.overflow = "hidden";        
+        modal.style.overflowX = "hidden";        
         
     }
 });
@@ -119,13 +119,13 @@ elList.addEventListener("click", evt =>{
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
     modal.style.display = "none";
-    document.body.style.overflow = "scroll"
+    document.body.style.overflowY = "scroll"
 };
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
-        document.body.style.overflow = "scroll"
+        document.body.style.overflowY = "scroll"
     }
 };
