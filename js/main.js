@@ -111,7 +111,7 @@ elList.addEventListener("click", evt =>{
     if (evt.target.matches("#myBtn")) {
         document.body.style.overflow = "hidden"
         modal.style.display = "block";  
-        modal.style.overflowX = "hidden";        
+        modal.style.overflow = "hidden";        
         
     }
 });
