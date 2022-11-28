@@ -260,9 +260,13 @@ body{
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+.moda-color{
+  color: var(--main-text-color);
+}
+
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: var(--main-body-color);
   margin: 15% auto; /* 15% from the top and centered */
   padding: 45px;
   border: 1px solid #888;

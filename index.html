@@ -50,7 +50,9 @@
     <!-- Modal content -->
     <div class="modal-content">
       <span class="close">&times;</span>
-      
+      <div class="render-modal">
+
+      </div>
     </div>
   </div>
   
@@ -73,48 +75,48 @@
             <strong class="hero-section-item-title">Capital:</strong>
             <p class="capital-desc hero-section-item-discrip">Berlin</p>
           </span>
-          <button class="more-info-btn" id="myBtn">More Info</button>
+          <button class="more-info-btn" id="myBtn" data-id="">More Info</button>
         </div> 
       </div>
     </li>
   </template>
   <template class="modal-temp">
     <div class="pt-3 d-flex">
-      <img src="./images/Afghanistan.jpg" width="450" height="300" alt="">
+      <img class="modal-img" src="./images/Afghanistan.jpg" width="450" height="300" alt="">
       <div class="modal-inner w-100">
-        <h2 class="fw-bold mb-4 fs-1">America</h2>
+        <h2 class="moda-color modal-title fw-bold mb-4 fs-1"></h2>
         <div class="d-flex ps-5">
           <ul class="list-unstyled modal-list">
             <li class="mb-2">
-              <p class="mb-0 fs-5 fw-bolder">Region:</p>
-              <span>America</span>
+              <p class="moda-color mb-0 fs-5 fw-bolder">Region:</p>
+              <span class="moda-color modal-region"></span>
             </li>
             <li class="mb-2">
-              <p class="mb-0 fs-5 fw-bolder">Currencies:</p>
-              <span>uzbnema</span>
+              <p class="moda-color mb-0 fs-5 fw-bolder">Currencies:</p>
+              <span class="moda-color modal-currencies"></span>
             </li>
             <li class="mb-2">
-              <p class="mb-0 fs-5 fw-bolder">Border:</p>
+              <p class="moda-color mb-0 fs-5 fw-bolder">Border:</p>
             </li>
           </ul>
           <ul class="list-unstyled">
             <li class="mb-2">
-              <p class="mb-0 fs-5 fw-bolder">Languages:</p>
-              <span>English</span>
+              <p class="moda-color mb-0 fs-5 fw-bolder">Languages:</p>
+              <span class="moda-color modal-language"></span>
             </li>
             <li class="mb-2">
-              <p class="mb-0 fs-5 fw-bolder">Subregion:</p>
-              <span>dddasdasd</span>
+              <p class="moda-color mb-0 fs-5 fw-bolder">Subregion:</p>
+              <span class="moda-color modal-subregion"></span>
             </li>
             <li class="mb-2">
-              <a class="mb-0 fs-5 fw-bolder" href="" target="blank">Google maps:</p>
-            </li>
-          </ul>
+              <a class="modal-link mb-0 fs-5 fw-bolder" href="" target="blank">Google maps:</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </template>
-  
-  <script src="js/main.js"></script>
-</body>
-</html>
+    </template>
+    
+    <script src="js/main.js"></script>
+  </body>
+  </html>
