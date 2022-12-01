@@ -13,6 +13,7 @@ const modal = document.getElementById("myModal");
 const elModalTemp = document.querySelector(".modal-temp").content;
 
 
+AOS.init();
 
 
 var example = {
